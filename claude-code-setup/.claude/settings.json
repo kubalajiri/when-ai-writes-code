@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "Bash(yarn test:*)",
+      "Bash(yarn test:ci:*)",
+      "Bash(npx jest:*)",
+      "Bash(yarn tsc:status:*)",
+      "Bash(yarn lint-code:*)",
+      "Bash(npx eslint:*)",
+      "Bash(glab mr diff:*)",
+      "Bash(yarn eslint:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
