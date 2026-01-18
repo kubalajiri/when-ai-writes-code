@@ -1,0 +1,33 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  // The maximum number of requests to allow per-turn when using an agent. When the limit is reached,
+  // will ask to confirm to continue.
+  "chat.agent.maxRequests": 9999,
+  // Auto approve terminal commands when using the terminal tool.
+  "chat.tools.terminal.autoApprove": {
+    "/^cd/": true,
+    "/^git log/": true,
+    "/^git show/": true,
+    "/^yarn/": true,
+    "/^npm/": true,
+    "/^npx eslint/": true,
+    "/^npx jest/": true,
+    "awk": true,
+    "glab": true,
+    "git fetch": true,
+  },
+  // Allow the use of Markdown files for agents.
+  "chat.useAgentsMdFile": true,
+  // Use nested Markdown files for agents.
+  "chat.useNestedAgentsMdFiles": true,
+  // Automatically fix diagnostics for edited files.
+  "github.copilot.chat.agent.autoFix": true,
+  // Enables the TypeScript language context provider for inline chats (both generate and edit)
+  "github.copilot.chat.languageContext.inline.typescript.enabled": true,
+  // Enables the TypeScript language context provider for /fix commands
+  "github.copilot.chat.languageContext.fix.typescript.enabled": true,
+  // Whether to enable agentic codesearch when using #codebase.
+  "github.copilot.chat.codesearch.enabled": true,
+  // Enable next edit suggestions when using the agent.
+  "github.copilot.nextEditSuggestions.enabled": true
+}

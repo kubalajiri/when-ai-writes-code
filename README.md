@@ -4,5 +4,5 @@
 
 | Date | Event | Link |
 |------|-------|------|
-| 09/2025 | PragueJS | [when-ai-writes-code](https://iamjirka.ai/when-ai-writes-code) |
-| 01/2026 | TM Caffe | [when-ai-writes-code-2026](https://iamjirka.ai/when-ai-writes-code-2026) |
+| 01/2026 | TM Caffe | [iamjirka.ai/when-ai-writes-code-2](https://iamjirka.ai/when-ai-writes-code-2) |
+| 09/2025 | PragueJS | [iamjirka.ai/when-ai-writes-code](https://iamjirka.ai/when-ai-writes-code) |
